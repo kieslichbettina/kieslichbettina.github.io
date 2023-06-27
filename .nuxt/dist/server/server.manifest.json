@@ -1,0 +1,27 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/cards-portfolio.js": "components/cards-portfolio.js",
+    "components/material-icon-account.js": "components/material-icon-account.js",
+    "components/material-icon-briefcase-account.js": "components/material-icon-briefcase-account.js",
+    "components/material-icon-card-account-mail.js": "components/material-icon-card-account-mail.js",
+    "components/material-icon-home.js": "components/material-icon-home.js",
+    "components/tabs-contact.js": "components/tabs-contact.js",
+    "components/tabs-home.js": "components/tabs-home.js",
+    "components/tabs-portfolio.js": "components/tabs-portfolio.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/cards-portfolio.js": "components/cards-portfolio.js.map",
+    "components/material-icon-account.js": "components/material-icon-account.js.map",
+    "components/material-icon-briefcase-account.js": "components/material-icon-briefcase-account.js.map",
+    "components/material-icon-card-account-mail.js": "components/material-icon-card-account-mail.js.map",
+    "components/material-icon-home.js": "components/material-icon-home.js.map",
+    "components/tabs-contact.js": "components/tabs-contact.js.map",
+    "components/tabs-home.js": "components/tabs-home.js.map",
+    "components/tabs-portfolio.js": "components/tabs-portfolio.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

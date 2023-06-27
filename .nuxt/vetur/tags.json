@@ -1,0 +1,53 @@
+{
+  "MaterialIconAccount": {
+    "description": "Auto imported from node_modules/vue-material-design-icons/Account.vue"
+  },
+  "MaterialIconBriefcaseAccount": {
+    "description": "Auto imported from node_modules/vue-material-design-icons/BriefcaseAccount.vue"
+  },
+  "MaterialIconCardAccountMail": {
+    "description": "Auto imported from node_modules/vue-material-design-icons/CardAccountMail.vue"
+  },
+  "MaterialIconHome": {
+    "description": "Auto imported from node_modules/vue-material-design-icons/Home.vue"
+  },
+  "AppFooter": {
+    "description": "Auto imported from components/AppFooter.vue"
+  },
+  "AppMenu": {
+    "description": "Auto imported from components/AppMenu.vue"
+  },
+  "AppModal": {
+    "description": "Auto imported from components/AppModal.vue"
+  },
+  "PageHeader": {
+    "description": "Auto imported from components/PageHeader.vue"
+  },
+  "CardsEducation": {
+    "description": "Auto imported from components/cards/Education.vue"
+  },
+  "CardsExperience": {
+    "description": "Auto imported from components/cards/Experience.vue"
+  },
+  "CardsPortfolio": {
+    "description": "Auto imported from components/cards/Portfolio.vue"
+  },
+  "CardsSkill": {
+    "description": "Auto imported from components/cards/Skill.vue"
+  },
+  "ModalsPortfolioDetails": {
+    "description": "Auto imported from components/modals/PortfolioDetails.vue"
+  },
+  "TabsAbout": {
+    "description": "Auto imported from components/tabs/About.vue"
+  },
+  "TabsContact": {
+    "description": "Auto imported from components/tabs/Contact.vue"
+  },
+  "TabsHome": {
+    "description": "Auto imported from components/tabs/Home.vue"
+  },
+  "TabsPortfolio": {
+    "description": "Auto imported from components/tabs/Portfolio.vue"
+  }
+}
