@@ -52,7 +52,7 @@ var map = {
 	"./img/svg/twitter.svg": 58,
 	"./img/svg/vue.svg": 35,
 	"./img/svg/worker.svg": 38,
-	"./my-portrait.JPG": 71,
+	"./my-portrait.jpg": 13,
 	"./portfolio-card.jpg": 39,
 	"./resume.pdf": 30
 };
@@ -232,13 +232,6 @@ module.exports = __webpack_require__.p + "img/figma-logo.954f334.svg";
 /***/ }),
 
 /***/ 71:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/my-portrait.b3ea4f1.JPG";
-
-/***/ }),
-
-/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -284,7 +277,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "270ed2d0"
+  "980fc1a4"
   
 )
 

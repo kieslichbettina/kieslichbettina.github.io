@@ -52,7 +52,7 @@ var map = {
 	"./img/svg/twitter.svg": 58,
 	"./img/svg/vue.svg": 35,
 	"./img/svg/worker.svg": 38,
-	"./my-portrait.JPG": 71,
+	"./my-portrait.jpg": 13,
 	"./portfolio-card.jpg": 39,
 	"./resume.pdf": 30
 };
@@ -232,13 +232,6 @@ module.exports = __webpack_require__.p + "img/figma-logo.954f334.svg";
 /***/ }),
 
 /***/ 71:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/my-portrait.b3ea4f1.JPG";
-
-/***/ }),
-
-/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -284,7 +277,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "270ed2d0"
+  "980fc1a4"
   
 )
 
@@ -292,7 +285,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 73:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -347,7 +340,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "69c7ed78"
+  "62957422"
   
 )
 
@@ -355,7 +348,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 74:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -394,7 +387,7 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./components/tabs/Portfolio.vue?vue&type=template&id=5eac8f4c&
 
 // EXTERNAL MODULE: ./components/cards/Portfolio.vue + 4 modules
-var Portfolio = __webpack_require__(72);
+var Portfolio = __webpack_require__(71);
 
 // EXTERNAL MODULE: ./components/PageHeader.vue + 4 modules
 var PageHeader = __webpack_require__(7);
@@ -443,7 +436,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0ba6b2b3"
+  "d7593ad6"
   
 )
 
@@ -455,7 +448,7 @@ installComponents(component, {PageHeader: __webpack_require__(7).default})
 
 /***/ }),
 
-/***/ 75:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -583,7 +576,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3ee53e4b"
+  "79607ead"
   
 )
 
@@ -595,7 +588,7 @@ installComponents(component, {PageHeader: __webpack_require__(7).default})
 
 /***/ }),
 
-/***/ 76:
+/***/ 75:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -635,16 +628,16 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=205f1940&
 
 // EXTERNAL MODULE: ./components/tabs/Home.vue + 4 modules
-var Home = __webpack_require__(73);
+var Home = __webpack_require__(72);
 
 // EXTERNAL MODULE: ./components/tabs/About.vue + 4 modules
 var About = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./components/tabs/Portfolio.vue + 4 modules
-var Portfolio = __webpack_require__(74);
+var Portfolio = __webpack_require__(73);
 
 // EXTERNAL MODULE: ./components/tabs/Contact.vue + 4 modules
-var Contact = __webpack_require__(75);
+var Contact = __webpack_require__(74);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 
@@ -688,7 +681,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "dda18d6c"
+  "694e7cac"
   
 )
 

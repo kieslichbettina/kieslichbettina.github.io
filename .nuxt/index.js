@@ -13,7 +13,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_5c9b009a from 'nuxt_plugin_plugin_5c9b009a' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_5fda063d from 'nuxt_plugin_plugin_5fda063d' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ../plugins/fontawesome.js (mode: 'all')
 import nuxt_plugin_getReposserver_0fec35b2 from 'nuxt_plugin_getReposserver_0fec35b2' // Source: ../plugins/getRepos.server.js (mode: 'server')
 import nuxt_plugin_vuelidate_4be431c8 from 'nuxt_plugin_vuelidate_4be431c8' // Source: ../plugins/vuelidate.js (mode: 'all')
@@ -85,7 +85,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Bettina Kieslich - Portfolio","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Mulish:wght@300&family=Poppins:wght@600&display=swap"}],"style":[],"script":[]},
+    head: {"title":"Bettina Kieslich - Portfolio","htmlAttrs":{"lang":"de"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Mulish:wght@300&family=Poppins:wght@600&display=swap"}],"style":[],"script":[]},
 
     store,
     router,
@@ -214,8 +214,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_5c9b009a === 'function') {
-    await nuxt_plugin_plugin_5c9b009a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_5fda063d === 'function') {
+    await nuxt_plugin_plugin_5fda063d(app.context, inject)
   }
 
   if (typeof nuxt_plugin_fontawesome_b8db358e === 'function') {

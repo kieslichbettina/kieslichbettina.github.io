@@ -488,7 +488,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "11664f10"
+  "4f00c95a"
   
 )
 
@@ -573,7 +573,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "05c662cf",
-  "60335e54"
+  "abb42e9c"
   
 )
 
@@ -619,7 +619,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "4f426b04",
-  "64070560"
+  "6575e82e"
   
 )
 
@@ -869,7 +869,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "662af010"
+  "249e78da"
   
 )
 
@@ -973,7 +973,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "f5a426f0"
+  "798cadea"
   
 )
 
@@ -1026,7 +1026,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "8ca1b3dc"
+  "6c213518"
   
 )
 
@@ -1081,7 +1081,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "b3b5f5a0"
+  "330e518e"
   
 )
 
@@ -1152,7 +1152,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4efc394e"
+  "774c0eb7"
   
 )
 
@@ -1213,7 +1213,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "7d311d52"
+  "17657fb5"
   
 )
 
@@ -1503,45 +1503,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "actions", function() { return actions; });
 const state = () => ({
   repos: [{
-    name: "Invoicing Web Application",
-    description: "An Invoicing application built with Reactjs and Nodejs. it allows contractors submit work related invoices to a backend server for validation and approval.",
+    name: "Productive Planning Poker",
+    description: "Ein Planning Poker für agile Teams",
     image: "",
-    client: "Employers",
-    tools: ["React", "NodeJS", "MongoDB", "LDAP", "AD"],
-    dateCompleted: "2022-04-15",
-    website: "Internally Consumed"
-  }, {
-    name: "Student Information Management System (PWA) ",
-    description: "Build a progressive web-app that manages students and lecturers from a university's department.",
-    image: "",
-    client: "Collaboration",
-    tools: ["React", "NodeJS", "MongoDB", "Express"],
-    dateCompleted: "Ongoing Collaboration",
-    website: ""
-  }, {
-    name: "Portfolio Website",
-    description: "Built a Vuejs web-app with NuxtJS that showcases my portfolio, skills, experiences and a quick and easy way to reach out to me.",
-    image: "",
-    client: "Self",
-    tools: ["Vue", "NuxtJs", "Sass"],
-    dateCompleted: "2022-05-01",
-    website: "https://kathalysth.github.io/portfolio/"
-  }, {
-    name: "Intern Management Application",
-    description: "",
-    image: "",
-    client: "Employers",
-    tools: ["React", "Nodejs", "Sass", "MongoDB", "AD", "LDAP", "Rest-Api"],
-    website: "https://itdima.herokuapp.com",
-    dateCompleted: "2021-11-15"
-  }, {
-    name: "Service Management Portal - Helpdesk",
-    description: "An Application built with reactJs and NodeJS for making ICT service request and incident reporting within the company.",
-    image: "",
-    client: "Employers",
-    tools: ["React", "Nodejs", "Sass", "MongoDB", "Vitejs", "LDAP", "AD", "Rest-Api"],
-    dateCompleted: "2022-08-29",
-    website: "Internally Consumed"
+    client: "Agile Teams",
+    tools: ["RubyOnRails", "PostgreSQL", "Vue"],
+    dateCompleted: "2023-12-01",
+    website: "tbd"
   }],
   projectData: []
 });
@@ -2411,7 +2379,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _1ec219b5 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 76)));
+const _7acd456b = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 75)));
 
 const emptyFn = () => {};
 
@@ -2424,7 +2392,7 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _1ec219b5,
+    component: _7acd456b,
     name: "index"
   }],
   fallback: false
@@ -2614,7 +2582,7 @@ var nuxt_error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "3fb70908"
+  "1f368a44"
   
 )
 
@@ -2918,7 +2886,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "416aeca0"
+  "3f0f0edc"
   
 )
 
@@ -3057,7 +3025,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   default_injectStyles,
   null,
-  "5edd4884"
+  "36bc1e20"
   
 )
 
@@ -3367,23 +3335,23 @@ function normalizeModule(moduleData, filePath) {
   return moduleData;
 }
 // CONCATENATED MODULE: ./.nuxt/components/index.js
-const MaterialIconAccount = () => __webpack_require__.e(/* import() | components/material-icon-account */ 2).then(__webpack_require__.bind(null, 77)).then(c => wrapFunctional(c.default || c));
-const MaterialIconBriefcaseAccount = () => __webpack_require__.e(/* import() | components/material-icon-briefcase-account */ 3).then(__webpack_require__.bind(null, 78)).then(c => wrapFunctional(c.default || c));
-const MaterialIconCardAccountMail = () => __webpack_require__.e(/* import() | components/material-icon-card-account-mail */ 4).then(__webpack_require__.bind(null, 79)).then(c => wrapFunctional(c.default || c));
-const MaterialIconHome = () => __webpack_require__.e(/* import() | components/material-icon-home */ 5).then(__webpack_require__.bind(null, 80)).then(c => wrapFunctional(c.default || c));
+const MaterialIconAccount = () => __webpack_require__.e(/* import() | components/material-icon-account */ 2).then(__webpack_require__.bind(null, 76)).then(c => wrapFunctional(c.default || c));
+const MaterialIconBriefcaseAccount = () => __webpack_require__.e(/* import() | components/material-icon-briefcase-account */ 3).then(__webpack_require__.bind(null, 77)).then(c => wrapFunctional(c.default || c));
+const MaterialIconCardAccountMail = () => __webpack_require__.e(/* import() | components/material-icon-card-account-mail */ 4).then(__webpack_require__.bind(null, 78)).then(c => wrapFunctional(c.default || c));
+const MaterialIconHome = () => __webpack_require__.e(/* import() | components/material-icon-home */ 5).then(__webpack_require__.bind(null, 79)).then(c => wrapFunctional(c.default || c));
 const components_AppFooter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 9)).then(c => wrapFunctional(c.default || c));
 const components_AppMenu = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 8)).then(c => wrapFunctional(c.default || c));
 const components_AppModal = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
 const PageHeader = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 7)).then(c => wrapFunctional(c.default || c));
 const CardsEducation = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
 const CardsExperience = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 25)).then(c => wrapFunctional(c.default || c));
-const CardsPortfolio = () => __webpack_require__.e(/* import() | components/cards-portfolio */ 1).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c));
+const CardsPortfolio = () => __webpack_require__.e(/* import() | components/cards-portfolio */ 1).then(__webpack_require__.bind(null, 71)).then(c => wrapFunctional(c.default || c));
 const CardsSkill = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c));
 const ModalsPortfolioDetails = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 28)).then(c => wrapFunctional(c.default || c));
 const TabsAbout = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 17)).then(c => wrapFunctional(c.default || c));
-const TabsContact = () => __webpack_require__.e(/* import() | components/tabs-contact */ 6).then(__webpack_require__.bind(null, 75)).then(c => wrapFunctional(c.default || c));
-const TabsHome = () => __webpack_require__.e(/* import() | components/tabs-home */ 7).then(__webpack_require__.bind(null, 73)).then(c => wrapFunctional(c.default || c));
-const TabsPortfolio = () => __webpack_require__.e(/* import() | components/tabs-portfolio */ 8).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
+const TabsContact = () => __webpack_require__.e(/* import() | components/tabs-contact */ 6).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c));
+const TabsHome = () => __webpack_require__.e(/* import() | components/tabs-home */ 7).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c));
+const TabsPortfolio = () => __webpack_require__.e(/* import() | components/tabs-portfolio */ 8).then(__webpack_require__.bind(null, 73)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
   if (!options || !options.functional) {
@@ -3561,7 +3529,7 @@ async function createApp(ssrContext, config = {}) {
     head: {
       "title": "Bettina Kieslich - Portfolio",
       "htmlAttrs": {
-        "lang": "en"
+        "lang": "de"
       },
       "meta": [{
         "charset": "utf-8"

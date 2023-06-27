@@ -2,7 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/gunnarmagholder/dev/kieslichbettina.github.io/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/gunnar/dev/kieslichbettina.github.io/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7acd456b"
   }
 ]

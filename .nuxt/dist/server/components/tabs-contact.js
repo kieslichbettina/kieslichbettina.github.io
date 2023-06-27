@@ -29,7 +29,7 @@ module.exports = __webpack_require__.p + "img/twitter.a4444ef.svg";
 
 /***/ }),
 
-/***/ 75:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -157,7 +157,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3ee53e4b"
+  "79607ead"
   
 )
 
