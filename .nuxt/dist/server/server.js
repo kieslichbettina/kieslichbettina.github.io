@@ -115,7 +115,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 40);
+/******/ 	return __webpack_require__(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -656,7 +656,7 @@ module.exports = __webpack_require__.p + "img/my-portrait.b3ea4f1.jpg";
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(43);
+var content = __webpack_require__(44);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -673,7 +673,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(45);
+var content = __webpack_require__(46);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -690,7 +690,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(50);
+var content = __webpack_require__(51);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -704,7 +704,7 @@ __webpack_require__(4).default("30fd0bff", content, true)
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/tabs/About.vue?vue&type=template&id=41f3e920&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/tabs/About.vue?vue&type=template&id=65d550ae&
 var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
@@ -742,7 +742,7 @@ var render = function render() {
 
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/tabs/About.vue?vue&type=template&id=41f3e920&
+// CONCATENATED MODULE: ./components/tabs/About.vue?vue&type=template&id=65d550ae&
 
 // EXTERNAL MODULE: ./components/cards/Experience.vue + 4 modules
 var Experience = __webpack_require__(25);
@@ -777,6 +777,8 @@ const jsLogo = __webpack_require__(36);
 const educationLogo = __webpack_require__(37);
 
 const workerLogo = __webpack_require__(38);
+
+const figmaLogo = __webpack_require__(39);
 
 /* harmony default export */ var Aboutvue_type_script_lang_js_ = ({
   name: "AboutPage",
@@ -831,7 +833,7 @@ monthly reports.`]
       skills: [{
         name: "Figma",
         level: 75,
-        logo: reactLogo
+        logo: figmaLogo
       }, {
         name: "javascript",
         level: 85,
@@ -1180,7 +1182,7 @@ var render = function render() {
     }
   }, [_vm._ssrNode("<div class=\"modal-dialog modal-dialog-centered portfolio-modal modal-dialog-scrollable\"><div class=\"modal-content portfolio-modal\"><span aria-label=\"close\" class=\"close\">×</span> <div class=\"modal-body\"><div><div><figure><figcaption><h3>" + _vm._ssrEscape(_vm._s(_vm.details.name)) + "</h3> <h4>" + _vm._ssrEscape(_vm._s(_vm.details.description)) + "</h4> <ul class=\"row\"><li class=\"col-12 col-sm-6\"><span class=\"project-label\">Tools:</span> <span class=\"project-label-value\"><ul class=\"topics\">" + _vm._ssrList(_vm.details.tools, function (tool, index) {
     return "<li><span class=\"badge\">" + _vm._ssrEscape(_vm._s(tool)) + "</span></li>";
-  }) + "</ul></span></li> <li class=\"col-12 col-sm-6\"><span class=\"project-label\">Client:</span> <span class=\"project-label-value\">" + _vm._ssrEscape(_vm._s(_vm.details.client)) + "</span></li> <li class=\"col-12 col-sm-6\"><span class=\"project-label\">Website:</span> " + (_vm.details.website !== '' && _vm.details.website !== 'Internally Consumed' ? "<span class=\"project-label-value\"><a" + _vm._ssrAttr("href", _vm.details.website) + " target=\"_blank\">" + _vm._ssrEscape(_vm._s(_vm.details.website)) + "</a></span>" : "<span class=\"project-label-value\">" + _vm._ssrEscape(_vm._s(_vm.details.website)) + "</span>") + "</li> <li class=\"col-12 col-sm-6\"><span class=\"project-label\">Date Completed:</span> <span>" + _vm._ssrEscape(" " + _vm._s(_vm.details.dateCompleted) + " ") + "</span></li></ul></figcaption> <img" + _vm._ssrAttr("src", __webpack_require__(39)) + "></figure></div></div></div></div></div>")]);
+  }) + "</ul></span></li> <li class=\"col-12 col-sm-6\"><span class=\"project-label\">Client:</span> <span class=\"project-label-value\">" + _vm._ssrEscape(_vm._s(_vm.details.client)) + "</span></li> <li class=\"col-12 col-sm-6\"><span class=\"project-label\">Website:</span> " + (_vm.details.website !== '' && _vm.details.website !== 'Internally Consumed' ? "<span class=\"project-label-value\"><a" + _vm._ssrAttr("href", _vm.details.website) + " target=\"_blank\">" + _vm._ssrEscape(_vm._s(_vm.details.website)) + "</a></span>" : "<span class=\"project-label-value\">" + _vm._ssrEscape(_vm._s(_vm.details.website)) + "</span>") + "</li> <li class=\"col-12 col-sm-6\"><span class=\"project-label\">Date Completed:</span> <span>" + _vm._ssrEscape(" " + _vm._s(_vm.details.dateCompleted) + " ") + "</span></li></ul></figcaption> <img" + _vm._ssrAttr("src", __webpack_require__(40)) + "></figure></div></div></div></div></div>")]);
 };
 
 var staticRenderFns = [];
@@ -1226,7 +1228,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(46);
+var content = __webpack_require__(47);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -1288,20 +1290,26 @@ module.exports = __webpack_require__.p + "img/worker.b46d4b1.svg";
 
 /***/ }),
 /* 39 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "img/portfolio-card.e279ae2.jpg";
+module.exports = "data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjAwIDMwMCIgd2lkdGg9IjE2NjciIGhlaWdodD0iMjUwMCI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6IzBhY2Y4M30uc3Qxe2ZpbGw6I2EyNTlmZn0uc3Qye2ZpbGw6I2YyNGUxZX0uc3Qze2ZpbGw6I2ZmNzI2Mn0uc3Q0e2ZpbGw6IzFhYmNmZX08L3N0eWxlPjx0aXRsZT5GaWdtYS5sb2dvPC90aXRsZT48ZGVzYz5DcmVhdGVkIHVzaW5nIEZpZ21hPC9kZXNjPjxwYXRoIGlkPSJwYXRoMF9maWxsIiBjbGFzcz0ic3QwIiBkPSJNNTAgMzAwYzI3LjYgMCA1MC0yMi40IDUwLTUwdi01MEg1MGMtMjcuNiAwLTUwIDIyLjQtNTAgNTBzMjIuNCA1MCA1MCA1MHoiLz48cGF0aCBpZD0icGF0aDFfZmlsbCIgY2xhc3M9InN0MSIgZD0iTTAgMTUwYzAtMjcuNiAyMi40LTUwIDUwLTUwaDUwdjEwMEg1MGMtMjcuNiAwLTUwLTIyLjQtNTAtNTB6Ii8+PHBhdGggaWQ9InBhdGgxX2ZpbGxfMV8iIGNsYXNzPSJzdDIiIGQ9Ik0wIDUwQzAgMjIuNCAyMi40IDAgNTAgMGg1MHYxMDBINTBDMjIuNCAxMDAgMCA3Ny42IDAgNTB6Ii8+PHBhdGggaWQ9InBhdGgyX2ZpbGwiIGNsYXNzPSJzdDMiIGQ9Ik0xMDAgMGg1MGMyNy42IDAgNTAgMjIuNCA1MCA1MHMtMjIuNCA1MC01MCA1MGgtNTBWMHoiLz48cGF0aCBpZD0icGF0aDNfZmlsbCIgY2xhc3M9InN0NCIgZD0iTTIwMCAxNTBjMCAyNy42LTIyLjQgNTAtNTAgNTBzLTUwLTIyLjQtNTAtNTAgMjIuNC01MCA1MC01MCA1MCAyMi40IDUwIDUweiIvPjwvc3ZnPg=="
 
 /***/ }),
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(41);
-module.exports = __webpack_require__(54);
-
+module.exports = __webpack_require__.p + "img/portfolio-card.e279ae2.jpg";
 
 /***/ }),
 /* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(42);
+module.exports = __webpack_require__(55);
+
+
+/***/ }),
+/* 42 */
 /***/ (function(module, exports) {
 
 global.installComponents = function (component, components) {
@@ -1345,7 +1353,7 @@ function provideFunctionalComponents(component, components) {
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1356,7 +1364,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -1370,7 +1378,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1381,7 +1389,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -1395,12 +1403,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(47);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(48);
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(13);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
@@ -1412,7 +1420,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1452,20 +1460,20 @@ module.exports = function (url, options) {
 };
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(49);
+var content = __webpack_require__(50);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 __webpack_require__(4).default("ad48b0d6", content, true)
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -1479,7 +1487,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -1493,7 +1501,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1540,20 +1548,20 @@ const actions = {
 };
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(53);
+var content = __webpack_require__(54);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 __webpack_require__(4).default("443e3be8", content, true)
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -1567,7 +1575,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2568,7 +2576,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(42)
+  var style0 = __webpack_require__(43)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -2872,7 +2880,7 @@ var nuxt_loading_render, nuxt_loading_staticRenderFns
 
 function nuxt_loading_injectStyles (context) {
   
-  var style0 = __webpack_require__(44)
+  var style0 = __webpack_require__(45)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -2895,7 +2903,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
 var main = __webpack_require__(29);
 
 // EXTERNAL MODULE: ./node_modules/@fortawesome/fontawesome-svg-core/styles.css
-var styles = __webpack_require__(48);
+var styles = __webpack_require__(49);
 
 // EXTERNAL MODULE: ./node_modules/animate.css/animate.css
 var animate = __webpack_require__(16);
@@ -3294,7 +3302,7 @@ external_vue_default.a.use(external_vuex_default.a);
 let store_store = {};
 
 (function updateModules() {
-  store_store = normalizeRoot(__webpack_require__(51), 'store/index.js'); // If store is an exported method = classic mode (deprecated)
+  store_store = normalizeRoot(__webpack_require__(52), 'store/index.js'); // If store is an exported method = classic mode (deprecated)
   // Enforce store modules
 
   store_store.modules = store_store.modules || {}; // If the environment supports hot reloading...
@@ -3430,7 +3438,7 @@ var external_vue_sweetalert2_ = __webpack_require__(23);
 var external_vue_sweetalert2_default = /*#__PURE__*/__webpack_require__.n(external_vue_sweetalert2_);
 
 // EXTERNAL MODULE: ./node_modules/sweetalert2/dist/sweetalert2.min.css
-var sweetalert2_min = __webpack_require__(52);
+var sweetalert2_min = __webpack_require__(53);
 
 // CONCATENATED MODULE: ./plugins/sweetalert2.js
 

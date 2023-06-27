@@ -103,6 +103,7 @@ const vueLogo = require("@/assets/img/svg/vue.svg");
 const jsLogo = require("@/assets/img/svg/js.svg");
 const educationLogo = require("@/assets/img/svg/graduation-cap.svg");
 const workerLogo = require("@/assets/img/svg/worker.svg");
+const figmaLogo = require("@/assets/img/svg/figma-logo.svg");
 
 export default {
   name: "AboutPage",
@@ -178,7 +179,7 @@ monthly reports.`,
         {
           name: "Figma",
           level: 75,
-          logo: reactLogo,
+          logo: figmaLogo,
         },
         {
           name: "javascript",

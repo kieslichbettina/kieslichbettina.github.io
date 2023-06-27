@@ -1,28 +1,28 @@
 exports.ids = [6];
 exports.modules = {
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIGlkPSJpLWdpdGh1YiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMzIgMCBDMTQgMCAwIDE0IDAgMzIgMCA1MyAxOSA2MiAyMiA2MiAyNCA2MiAyNCA2MSAyNCA2MCBMMjQgNTUgQzE3IDU3IDE0IDUzIDEzIDUwIDEzIDUwIDEzIDQ5IDExIDQ3IDEwIDQ2IDYgNDQgMTAgNDQgMTMgNDQgMTUgNDggMTUgNDggMTggNTIgMjIgNTEgMjQgNTAgMjQgNDggMjYgNDYgMjYgNDYgMTggNDUgMTIgNDIgMTIgMzEgMTIgMjcgMTMgMjQgMTUgMjIgMTUgMjIgMTMgMTggMTUgMTMgMTUgMTMgMjAgMTMgMjQgMTcgMjcgMTUgMzcgMTUgNDAgMTcgNDQgMTMgNDkgMTMgNDkgMTMgNTEgMjAgNDkgMjIgNDkgMjIgNTEgMjQgNTIgMjcgNTIgMzEgNTIgNDIgNDUgNDUgMzggNDYgMzkgNDcgNDAgNDkgNDAgNTIgTDQwIDYwIEM0MCA2MSA0MCA2MiA0MiA2MiA0NSA2MiA2NCA1MyA2NCAzMiA2NCAxNCA1MCAwIDMyIDAgWiIgLz4KPC9zdmc+"
 
 /***/ }),
 
-/***/ 56:
+/***/ 57:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/instagram.0feb951.svg";
 
 /***/ }),
 
-/***/ 57:
+/***/ 58:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/linkedin.e583fde.svg";
 
 /***/ }),
 
-/***/ 58:
+/***/ 59:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/twitter.a4444ef.svg";
@@ -100,10 +100,10 @@ var PageHeader = __webpack_require__(7);
       subject: "",
       message: "",
       isLoading: false,
-      instagramLogo: __webpack_require__(56),
-      twitterLogo: __webpack_require__(58),
-      linkedinLogo: __webpack_require__(57),
-      gitHubLogo: __webpack_require__(55)
+      instagramLogo: __webpack_require__(57),
+      twitterLogo: __webpack_require__(59),
+      linkedinLogo: __webpack_require__(58),
+      gitHubLogo: __webpack_require__(56)
     };
   },
 

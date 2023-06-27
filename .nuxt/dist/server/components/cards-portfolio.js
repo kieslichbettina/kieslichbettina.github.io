@@ -1,59 +1,59 @@
 exports.ids = [1];
 exports.modules = {
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIGlkPSJpLWdpdGh1YiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMzIgMCBDMTQgMCAwIDE0IDAgMzIgMCA1MyAxOSA2MiAyMiA2MiAyNCA2MiAyNCA2MSAyNCA2MCBMMjQgNTUgQzE3IDU3IDE0IDUzIDEzIDUwIDEzIDUwIDEzIDQ5IDExIDQ3IDEwIDQ2IDYgNDQgMTAgNDQgMTMgNDQgMTUgNDggMTUgNDggMTggNTIgMjIgNTEgMjQgNTAgMjQgNDggMjYgNDYgMjYgNDYgMTggNDUgMTIgNDIgMTIgMzEgMTIgMjcgMTMgMjQgMTUgMjIgMTUgMjIgMTMgMTggMTUgMTMgMTUgMTMgMjAgMTMgMjQgMTcgMjcgMTUgMzcgMTUgNDAgMTcgNDQgMTMgNDkgMTMgNDkgMTMgNTEgMjAgNDkgMjIgNDkgMjIgNTEgMjQgNTIgMjcgNTIgMzEgNTIgNDIgNDUgNDUgMzggNDYgMzkgNDcgNDAgNDkgNDAgNTIgTDQwIDYwIEM0MCA2MSA0MCA2MiA0MiA2MiA0NSA2MiA2NCA1MyA2NCAzMiA2NCAxNCA1MCAwIDMyIDAgWiIgLz4KPC9zdmc+"
 
 /***/ }),
 
-/***/ 56:
+/***/ 57:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/instagram.0feb951.svg";
 
 /***/ }),
 
-/***/ 57:
+/***/ 58:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/linkedin.e583fde.svg";
 
 /***/ }),
 
-/***/ 58:
+/***/ 59:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/twitter.a4444ef.svg";
 
 /***/ }),
 
-/***/ 59:
+/***/ 60:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./css/_card.scss": 60,
-	"./css/_modal.scss": 62,
-	"./css/_sweetalert.scss": 64,
-	"./css/_variables.scss": 66,
-	"./css/bootstrap.scss": 68,
+	"./css/_card.scss": 61,
+	"./css/_modal.scss": 63,
+	"./css/_sweetalert.scss": 65,
+	"./css/_variables.scss": 67,
+	"./css/bootstrap.scss": 69,
 	"./css/main.scss": 29,
 	"./img/svg/css.svg": 32,
-	"./img/svg/figma-logo.svg": 70,
-	"./img/svg/github.svg": 55,
+	"./img/svg/figma-logo.svg": 39,
+	"./img/svg/github.svg": 56,
 	"./img/svg/graduation-cap.svg": 37,
 	"./img/svg/html.svg": 33,
-	"./img/svg/instagram.svg": 56,
+	"./img/svg/instagram.svg": 57,
 	"./img/svg/js.svg": 36,
-	"./img/svg/linkedin.svg": 57,
+	"./img/svg/linkedin.svg": 58,
 	"./img/svg/nodejs.svg": 34,
 	"./img/svg/react.svg": 31,
-	"./img/svg/twitter.svg": 58,
+	"./img/svg/twitter.svg": 59,
 	"./img/svg/vue.svg": 35,
 	"./img/svg/worker.svg": 38,
 	"./my-portrait.jpg": 13,
-	"./portfolio-card.jpg": 39,
+	"./portfolio-card.jpg": 40,
 	"./resume.pdf": 30
 };
 
@@ -75,17 +75,17 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 59;
+webpackContext.id = 60;
 
 /***/ }),
 
-/***/ 60:
+/***/ 61:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(61);
+var content = __webpack_require__(62);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -93,7 +93,7 @@ __webpack_require__(4).default("e5423b14", content, true)
 
 /***/ }),
 
-/***/ 61:
+/***/ 62:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -108,13 +108,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 62:
+/***/ 63:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(63);
+var content = __webpack_require__(64);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -122,7 +122,7 @@ __webpack_require__(4).default("7f54976c", content, true)
 
 /***/ }),
 
-/***/ 63:
+/***/ 64:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -137,13 +137,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 64:
+/***/ 65:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(65);
+var content = __webpack_require__(66);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -151,7 +151,7 @@ __webpack_require__(4).default("1b11d57e", content, true)
 
 /***/ }),
 
-/***/ 65:
+/***/ 66:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -166,13 +166,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 66:
+/***/ 67:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(67);
+var content = __webpack_require__(68);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -180,7 +180,7 @@ __webpack_require__(4).default("74d2df2c", content, true)
 
 /***/ }),
 
-/***/ 67:
+/***/ 68:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -195,13 +195,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 68:
+/***/ 69:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(69);
+var content = __webpack_require__(70);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -209,7 +209,7 @@ __webpack_require__(4).default("31338890", content, true)
 
 /***/ }),
 
-/***/ 69:
+/***/ 70:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -221,13 +221,6 @@ ___CSS_LOADER_EXPORT___.push([module.i, ":root{--bs-blue:#0d6efd;--bs-indigo:#66
 ___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
 
-
-/***/ }),
-
-/***/ 70:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/figma-logo.954f334.svg";
 
 /***/ }),
 
@@ -245,7 +238,7 @@ var render = function render() {
 
   return _c('figure', {
     staticClass: "portfolio-card"
-  }, [_vm._ssrNode("<img" + _vm._ssrAttr("src", __webpack_require__(59)("./" + _vm.avatar)) + "> <div class=\"content-title\"><div><h6>" + _vm._ssrEscape(_vm._s(_vm.title)) + "</h6> <p>" + _vm._ssrEscape(_vm._s(_vm.description)) + "</p></div></div>")]);
+  }, [_vm._ssrNode("<img" + _vm._ssrAttr("src", __webpack_require__(60)("./" + _vm.avatar)) + "> <div class=\"content-title\"><div><h6>" + _vm._ssrEscape(_vm._s(_vm.title)) + "</h6> <p>" + _vm._ssrEscape(_vm._s(_vm.description)) + "</p></div></div>")]);
 };
 
 var staticRenderFns = [];
