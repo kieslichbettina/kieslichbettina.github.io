@@ -54,7 +54,8 @@ var map = {
 	"./img/svg/worker.svg": 38,
 	"./my-portrait.jpg": 13,
 	"./portfolio-card.jpg": 40,
-	"./resume.pdf": 30
+	"./resume.pdf": 30,
+	"./resume.pdf:Zone.Identifier": 71
 };
 
 
@@ -225,6 +226,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 /***/ }),
 
 /***/ 71:
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

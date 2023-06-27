@@ -2387,7 +2387,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _7acd456b = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 75)));
+const _7acd456b = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 76)));
 
 const emptyFn = () => {};
 
@@ -3343,23 +3343,23 @@ function normalizeModule(moduleData, filePath) {
   return moduleData;
 }
 // CONCATENATED MODULE: ./.nuxt/components/index.js
-const MaterialIconAccount = () => __webpack_require__.e(/* import() | components/material-icon-account */ 2).then(__webpack_require__.bind(null, 76)).then(c => wrapFunctional(c.default || c));
-const MaterialIconBriefcaseAccount = () => __webpack_require__.e(/* import() | components/material-icon-briefcase-account */ 3).then(__webpack_require__.bind(null, 77)).then(c => wrapFunctional(c.default || c));
-const MaterialIconCardAccountMail = () => __webpack_require__.e(/* import() | components/material-icon-card-account-mail */ 4).then(__webpack_require__.bind(null, 78)).then(c => wrapFunctional(c.default || c));
-const MaterialIconHome = () => __webpack_require__.e(/* import() | components/material-icon-home */ 5).then(__webpack_require__.bind(null, 79)).then(c => wrapFunctional(c.default || c));
+const MaterialIconAccount = () => __webpack_require__.e(/* import() | components/material-icon-account */ 2).then(__webpack_require__.bind(null, 77)).then(c => wrapFunctional(c.default || c));
+const MaterialIconBriefcaseAccount = () => __webpack_require__.e(/* import() | components/material-icon-briefcase-account */ 3).then(__webpack_require__.bind(null, 78)).then(c => wrapFunctional(c.default || c));
+const MaterialIconCardAccountMail = () => __webpack_require__.e(/* import() | components/material-icon-card-account-mail */ 4).then(__webpack_require__.bind(null, 79)).then(c => wrapFunctional(c.default || c));
+const MaterialIconHome = () => __webpack_require__.e(/* import() | components/material-icon-home */ 5).then(__webpack_require__.bind(null, 80)).then(c => wrapFunctional(c.default || c));
 const components_AppFooter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 9)).then(c => wrapFunctional(c.default || c));
 const components_AppMenu = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 8)).then(c => wrapFunctional(c.default || c));
 const components_AppModal = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
 const PageHeader = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 7)).then(c => wrapFunctional(c.default || c));
 const CardsEducation = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
 const CardsExperience = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 25)).then(c => wrapFunctional(c.default || c));
-const CardsPortfolio = () => __webpack_require__.e(/* import() | components/cards-portfolio */ 1).then(__webpack_require__.bind(null, 71)).then(c => wrapFunctional(c.default || c));
+const CardsPortfolio = () => __webpack_require__.e(/* import() | components/cards-portfolio */ 1).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c));
 const CardsSkill = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c));
 const ModalsPortfolioDetails = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 28)).then(c => wrapFunctional(c.default || c));
 const TabsAbout = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 17)).then(c => wrapFunctional(c.default || c));
-const TabsContact = () => __webpack_require__.e(/* import() | components/tabs-contact */ 6).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c));
-const TabsHome = () => __webpack_require__.e(/* import() | components/tabs-home */ 7).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c));
-const TabsPortfolio = () => __webpack_require__.e(/* import() | components/tabs-portfolio */ 8).then(__webpack_require__.bind(null, 73)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
+const TabsContact = () => __webpack_require__.e(/* import() | components/tabs-contact */ 6).then(__webpack_require__.bind(null, 75)).then(c => wrapFunctional(c.default || c));
+const TabsHome = () => __webpack_require__.e(/* import() | components/tabs-home */ 7).then(__webpack_require__.bind(null, 73)).then(c => wrapFunctional(c.default || c));
+const TabsPortfolio = () => __webpack_require__.e(/* import() | components/tabs-portfolio */ 8).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
   if (!options || !options.functional) {

@@ -54,7 +54,8 @@ var map = {
 	"./img/svg/worker.svg": 38,
 	"./my-portrait.jpg": 13,
 	"./portfolio-card.jpg": 40,
-	"./resume.pdf": 30
+	"./resume.pdf": 30,
+	"./resume.pdf:Zone.Identifier": 71
 };
 
 
@@ -225,6 +226,13 @@ module.exports = ___CSS_LOADER_EXPORT___;
 /***/ }),
 
 /***/ 71:
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -278,7 +286,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 72:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -341,7 +349,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 73:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -380,7 +388,7 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./components/tabs/Portfolio.vue?vue&type=template&id=5eac8f4c&
 
 // EXTERNAL MODULE: ./components/cards/Portfolio.vue + 4 modules
-var Portfolio = __webpack_require__(71);
+var Portfolio = __webpack_require__(72);
 
 // EXTERNAL MODULE: ./components/PageHeader.vue + 4 modules
 var PageHeader = __webpack_require__(7);
@@ -441,7 +449,7 @@ installComponents(component, {PageHeader: __webpack_require__(7).default})
 
 /***/ }),
 
-/***/ 74:
+/***/ 75:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -581,7 +589,7 @@ installComponents(component, {PageHeader: __webpack_require__(7).default})
 
 /***/ }),
 
-/***/ 75:
+/***/ 76:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -621,16 +629,16 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=205f1940&
 
 // EXTERNAL MODULE: ./components/tabs/Home.vue + 4 modules
-var Home = __webpack_require__(72);
+var Home = __webpack_require__(73);
 
 // EXTERNAL MODULE: ./components/tabs/About.vue + 4 modules
 var About = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./components/tabs/Portfolio.vue + 4 modules
-var Portfolio = __webpack_require__(73);
+var Portfolio = __webpack_require__(74);
 
 // EXTERNAL MODULE: ./components/tabs/Contact.vue + 4 modules
-var Contact = __webpack_require__(74);
+var Contact = __webpack_require__(75);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 
