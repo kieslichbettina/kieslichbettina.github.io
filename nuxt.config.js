@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'Bettina Kieslich - Portfolio',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
